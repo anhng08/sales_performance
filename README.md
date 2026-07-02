@@ -15,7 +15,7 @@ I took raw sales and marketing data, cleaned and organized it, then built visual
 2. **Product concentration risk**: What % of total revenue currently depends on the top 5 products, and how much would total revenue drop if demand for one of those products fell?
 3. **Recommendation**: Where should campaign ID / UTM tracking be implemented first (checkout, landing page, or CRM) so the next reporting period can accurately measure marketing ROI?
 
-## 🎯 What This Project Covers
+## What This Project Covers
 - **Sales Performance:** Revenue and profit trends over 5 years
 - **Customer & Product Analysis:** Which customers and products drive the most revenue
 - **Sales Channels & Regions:** Where the business is strongest (and weakest)
@@ -23,21 +23,21 @@ I took raw sales and marketing data, cleaned and organized it, then built visual
 - **Data Limitations:** An honest look at what the data *can't* tell us yet
 - **Recommendations:** Concrete next steps to fix data gaps and improve tracking
 
-## 🛠️ How It Was Built
+## How It Was Built
 | Step | Tool Used |
 |------|-----------|
 | Data cleaning & column mapping | Python |
 | Loading & organizing data | SQL |
 | Dashboard & visual reporting | Power BI |
 
-## 📈 Key Findings
+## Key Findings
 - **Total revenue:** 205.99M | **Total profit:** 190.69M | **Total orders:** 11K
 - The **Wholesale channel** drives the majority of revenue (~54%), followed by Distributor (~31%) and Export (~15%).
 - Revenue is **geographically balanced**, with the West region slightly ahead.
 - No single customer dominates revenue — the customer base is well diversified.
 - A small group of products generates a large share of revenue, which is good for focus but risky if demand for those products shifts.
 
-## ⚠️ Data Limitations
+## Data Limitations
 Marketing campaigns have cost data, but **we currently can't prove which campaign generated which sale**, because:
 - Multiple campaigns often run at the same time (overlapping periods)
 - Customer purchases aren't linked to specific campaigns
