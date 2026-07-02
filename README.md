@@ -5,6 +5,8 @@ This project looks at a company's sales data from 2014 to 2018 to answer a simpl
 
 I took raw sales and marketing data, cleaned and organized it, then built visual reports to help decision-makers quickly understand revenue trends, top customers, best-selling products, and how well marketing campaigns are working.
 
+<img width="1570" height="492" alt="dev_erd" src="https://github.com/user-attachments/assets/777d9c8b-982b-4d73-a18e-ab38fa48f14e" />
+
 ## 1. Specific Problems
 - Marketing spent 15.3M, but **there's no way to tell which campaign actually drove revenue**, since multiple campaigns ran during overlapping periods
 - Revenue is **concentrated in a small group of products** (Product 26, 25, 13...) — risky if demand for that group shifts, but the actual level of risk hasn't been measured
